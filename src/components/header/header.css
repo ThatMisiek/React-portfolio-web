@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Protest+Guerrilla&family=Zeyada&display=swap");
+
+.zeyada-regular {
+	font-family: "Zeyada", cursive;
+	font-weight: 600;
+}
+
 header {
 	height: 100vh;
 	padding-top: 7rem;
@@ -53,4 +60,20 @@ header {
 	transform: rotate(90deg);
 	font-weight: 300;
 	font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+	header {
+		height: 68vh;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		height: 100vh;
+	}
+	.header__socials,
+	.scroll__down {
+		display: none;
+	}
 }
