@@ -46,7 +46,7 @@
 	background: transparent;
 	border-color: var(--color-primary-variant);
 	cursor: default;
-	transition: ease-in 0.3s;
+	transition: var(--transition);
 }
 
 .about__icon {
